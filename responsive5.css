@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+
+@media (max-width:991px){
+    .header{
+        display: none;
+        
+    }
+    .headers_cnt{
+        text-align: center;
+        background-color: black;
+    }
+    .headers_cnt p{
+        color: #FFF;
+
+/* Paragraph/body text */
+font-family: Roboto;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+    }
+
+    .About_cnt h4{
+        font-size: 30px;
+    }
+    .About_cnt p a{
+        font-size: 10px;
+    }
+
+    #Blog{
+        display: none;
+    }
+    #Arrow{
+        display: none;
+    }
+    #Blogs{
+        padding-top: 20px;
+    }
+    .Blogs_images{
+        padding: 35px;
+    }
+    .Blogs_imgs01{
+        background: var(--Comon-Colot, #FFF);
+
+        /* 42 */
+        box-shadow: 0px 5px 30px 0px rgba(17, 22, 30, 0.08);
+        margin-bottom: 10px;
+    }
+    .Blogs_cnt h4{
+        color: var(--Text-Color, #11161E);
+        /*Heading-H4*/font-family: "Josefin Sans";
+        font-size: 14.76px;
+        font-style: normal;
+        font-weight: 700;
+        padding-top: 6px;
+        padding-left: 12px;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+}
+    .Blogs_cnt p{
+        color: var(--Paragraph-Color, #444);
+
+/* Paragraph/body text */
+font-family: Roboto;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+padding-top: 4px;
+padding-left: 12px;
+    }
+    .btn.iss{
+        color: var(--Paragraph-Color, #444);
+        /*ButtonText*/font-family: "Josefin Sans";
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 600;
+        padding-top: 4px;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+}
+    .years{
+        color: white;
+        background-color: #11161E;
+        padding: 4px 6px;
+        opacity: 0.4;
+    }
+    .Blogs_imgs01:hover .Blogs_cnt h4{
+        color: #FF6F61;
+    }
+    .Blogs_imgs01:hover .btn.iss{
+        color: #FF6F61;
+    }
+
+
+
+
+
+
+
+
+
+    #footer{
+        display: none;
+    }
+    #footers{
+        margin-top: 20px;
+    }
+    .footers_cnt{
+        text-align: center;
+    }
+    .footers_cnt1 h4{
+        color: var(--Text-Color, #11161E);
+
+/* Heading - H3 */
+font-family: "Josefin Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+
+    }
+    .footers_cnt1 p{
+        color: var(--Paragraph-Color, #444);
+
+/* Paragraph/body text */
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+
+    }
+    .btn-group.iss{
+        width: 20px;
+        display: flex;
+        justify-content: left;
+        margin-top: 50px;
+    }
+    input{
+        padding: 8px 10px;
+        margin-left: 10px;
+        color: #8F8F8F;
+/* Paragraph/body text */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+border: 1px solid rgb(245, 241, 241);
+    }
+    .subscribe{
+        color: var(--Comon-Colot, #FFF);
+font-family: "Josefin Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px; /* 166.667% */
+border: none;
+outline: none;
+background-color: #FF6F61;
+padding: 0 8px;
+    }
+    .logos{
+        margin-top: 20px;
+    }
+    .logos_cnt{
+        color: var(--Paragraph-Color, #444);
+
+/* Paragraph/body text */
+font-family: Roboto;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+margin-top: 10px;
+
+    }
+    .links.is{
+        padding-top: 10px;
+    }
+    .accounts{
+        padding-top: 20px;
+    }
+    .accounts_cnt{
+        text-align: center;
+    }
+    .accounts_cnt h4{
+        color: var(--Text-Color, #11161E);
+
+/* Heading - H4 */
+font-family: "Josefin Sans";
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 34px; /* 141.667% */
+    }
+    .accounts_cnt ul li a{
+        color: var(--Paragraph-Color, #444);
+
+/* Paragraph/body text */
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+    }
+    .accounts_cnt ul li:hover a{
+        color: #FF6F61;
+    }
+    .contacts_cnt{
+        text-align: center;
+    }
+    .contacts_cnt h4{
+        color: var(--Text-Color, #11161E);
+font-family: "Josefin Sans";
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 34px; /* 141.667% */
+    }
+
+    address{
+        color: var(--Paragraph-Color, #444);
+
+/* Paragraph/body text */
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+    }
+    .locationss{
+        color: #FF6F61;
+      
+        width: 100vh;
+    }
+    .addressed{
+        color: var(--Paragraph-Color, #444);
+
+/* Paragraph/body text */
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+
+    }
+    .phoness{
+        color: #FF6F61;
+    }
+    .phones a{
+        color: var(--Paragraph-Color, #444);
+
+/* Paragraph/body text */
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+    }
+    .emailsss{
+        color: #FF6F61;
+    }
+    .emailss a{
+        color: var(--Paragraph-Color, #444);
+
+/* Paragraph/body text */
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+
+    }
+    .footers_cnt1 .para{
+        color: var(--Paragraph-Color, #444);
+
+/* Paragraph/body text */
+font-family: Roboto;
+font-size: 2px;
+font-style: normal;
+font-weight: 400;
+
+    }
+    .aytor{
+        color: #FF6F61;
+    }
+    .angfuzsoft{
+        color: #FF6F61;
+    }
+    .payments{
+        padding: 10px 0;
+        
+    }
+    .facebook.iss{
+        color: black;
+        padding: 0 10px;
+    }
+    .instagrram.iss{
+        color: black;
+        padding: 0 10px;
+    }
+    .instagrram.iss:hover{
+        color: #FF6F61;
+    }
+
+    .facebook.iss:hover{
+        color: #FF6F61;
+    }
+    .twitter.iss{
+        color: black;
+        padding: 0 10px;
+    }
+    .twitter.iss:hover{
+        color: #FF6F61;
+    }
+    .pinterest.iss{
+        color: black;
+        padding: 0 10px;
+    }
+    .pinterest.iss:hover{
+        color: #FF6F61;
+
+    }
+    .links.is{
+        display: flex;
+        justify-content: center;
+    
+    } 
+
+}

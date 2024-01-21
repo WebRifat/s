@@ -1,0 +1,585 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+
+@media (max-width:991px){
+
+
+    .header{
+        display: none;
+        
+    }
+    .headers_cnt{
+        text-align: center;
+        background-color: black;
+    }
+    .headers_cnt p{
+        color: #FFF;
+
+/* Paragraph/body text */
+font-family: Roboto;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+    }
+
+    .About_cnt h4{
+        font-size: 30px;
+    }
+    .About_cnt p a{
+        font-size: 10px;
+    }
+    #sell{
+        display: none;
+    }
+    #slider{
+        display: none;
+    }
+    .slider{
+        display: none;
+    }
+   
+    #content{
+        display: none;
+    }
+    #related{
+        display: none;
+    }
+    .related{
+        display: none;
+    }
+    #selling{
+        margin-top: 40px;
+    }
+    .selling_images{
+        padding: 20px;
+    }
+    .selling_cnt{
+        padding: 20px 30px 0 20px;
+    }
+    .selling_cnt h4{
+        color: var(--Text-Color, #11161E);
+
+/* Heading - H3 */
+font-family: "Josefin Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+
+    }
+    .customerss{
+        color: var(--Paragraph-Color, #444);
+
+/* Heading - H7 */
+font-family: "Josefin Sans";
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+color: black;
+    }
+    .startsss{
+        color: #FF6F61;
+        border-right: 1px solid #BDBDBD;;
+        padding-right: 10px;
+        width: 1px;
+        height: 16px;
+    }
+    .cusrev{
+        color: var(--Paragraph-Color, #444);
+
+        /* Heading - H7 */
+        font-family: "Josefin Sans";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        color: black;
+        padding-left: 10px;
+
+    }
+    .selling_cnt h5{
+        color: var(--Text-Color, #11161E);
+
+/* Heading - H5 */
+font-family: "Josefin Sans";
+font-size:12px;
+font-style: normal;
+font-weight: 600;
+padding-top: 12px;
+
+    }
+    del{
+        color: var(--Paragraph-Color, #444);
+font-family: "Josefin Sans";
+font-size: 11.5px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 100% */
+text-decoration-line: strikethrough;
+
+    }
+    .selling_cnt p{
+        color: var(--Paragraph-Color, #444);
+text-align: justify;
+
+/* Paragraph/body text */
+font-family: Roboto;
+font-size: 9px;
+font-style: normal;
+font-weight: 400;
+padding-top: 13px;
+
+
+    }
+    .sizes{
+        color: var(--Text-Color, #11161E);
+        /*Heading-H6*/font-family: "Josefin Sans";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        transform: translateY(-13px);
+        -webkit-transform: translateY(-13px);
+        -moz-transform: translateY(-13px);
+        -ms-transform: translateY(-13px);
+        -o-transform: translateY(-13px);
+}
+    .selects{
+        margin-left: 5px;
+       
+    }
+    .selects select{
+        margin-top: 0%;
+        padding-top:10px;
+        padding-left: 10px;
+        padding-right: 70px;
+        padding-bottom: 10px;
+  
+        margin-left: 10px;
+        outline: none;
+        margin-bottom: 30px;
+    }
+    .selling_cnt h6{
+        color: var(--Text-Color, #11161E);
+    font-family: "Josefin Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+   
+    }
+    .cart * {
+        width: 50px;
+        border: 1px solid var(--Gray-5, #E0E0E0);
+        margin-top: 7px;
+    }
+    .quantity{
+        
+        text-align: center;
+        width: 50px;
+
+
+    }
+    .decrement{
+        text-align: center;
+    }
+    .increment{
+        text-align: center;
+    }
+    .sku{
+        color: var(--Text-Color, #11161E);
+
+/* Heading - H6 */
+font-family: "Josefin Sans";
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+
+    }
+    .facebook.iss.active{
+        color: #828282;
+       
+}
+    .facebook.iss.active:hover{
+        color: black;
+
+    }
+    .twitter.iss.active{
+        color: #828282;
+       
+}
+    .twitter.iss.active:hover{
+        color: black;
+
+    }
+    .instagrram.iss.active{
+        color: #828282;
+       
+}
+    .instagrram.iss.active:hover{
+        color: black;
+
+    }
+    .pinterest.iss.active{
+        color: #828282;
+       
+}
+    .pinterest.iss.active:hover{
+        color: black;
+
+    }
+    .sell_imgs{
+        padding: 40px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    #contents{
+        padding-top: 20px;
+    }
+    .accordion-button{
+        color: var(--Comon-Colot, #FFF);
+font-family: "Josefin Sans";
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 150% */
+background-color: #FF6F61;
+outline: none;
+border: none;
+    }
+    .accordion-body{
+        color: var(--Paragraph-Color, #444);
+text-align: justify;
+
+/* Paragraph/body text */
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+
+    }
+    #relateds{
+        padding-top: 40px;
+    }
+    .relateds_cnt{
+        text-align: center;
+    }
+    .relateds_cnt h4{
+        color: var(--Text-Color, #11161E);
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+
+    }
+    .relateds_img{
+        padding: 40px;
+    }
+    .relateds_image1{
+        background-color: #FFF;
+        border: 1px solid rgb(231, 224, 224);
+        margin-bottom: 20px;
+        
+    }
+    .relateds_cnts{
+        text-align: center;
+    }
+    
+    .relateds_content p{
+        margin-left: -15px;
+        
+    }
+    .startss{
+    font-size: 12px;
+    padding-left: 73px;
+    }
+    .relateds_content h6{
+        color: var(--Text-Color, #11161E);
+
+    /* Heading - H6 */
+    font-family: "Josefin Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+padding-top: 15px;
+
+    }
+    .relateds_content p{
+        color: var(--Paragraph-Color, #444);
+
+/* Heading - H7 */
+font-family: "Josefin Sans";
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+padding-top: 5px;
+
+    }
+    .new.isssss{
+        padding: 4px 12px;
+    }
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #footer{
+        display: none;
+    }
+    #footers{
+        margin-top: 20px;
+    }
+    .footers_cnt{
+        text-align: center;
+    }
+    .footers_cnt1 h4{
+        color: var(--Text-Color, #11161E);
+
+/* Heading - H3 */
+font-family: "Josefin Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+
+    }
+    .footers_cnt1 p{
+        color: var(--Paragraph-Color, #444);
+
+/* Paragraph/body text */
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+
+    }
+    .btn-group.iss{
+        width: 20px;
+        display: flex;
+        justify-content: left;
+        margin-top: 50px;
+    }
+    input{
+        padding: 8px 10px;
+        margin-left: 10px;
+        color: #8F8F8F;
+/* Paragraph/body text */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+border: 1px solid rgb(245, 241, 241);
+    }
+    .subscribe{
+        color: var(--Comon-Colot, #FFF);
+font-family: "Josefin Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px; /* 166.667% */
+border: none;
+outline: none;
+background-color: #FF6F61;
+padding: 0 8px;
+    }
+    .logos{
+        margin-top: 20px;
+    }
+    .logos_cnt{
+        color: var(--Paragraph-Color, #444);
+
+/* Paragraph/body text */
+font-family: Roboto;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+margin-top: 10px;
+
+    }
+    .links.is{
+        padding-top: 10px;
+    }
+    .accounts{
+        padding-top: 20px;
+    }
+    .accounts_cnt{
+        text-align: center;
+    }
+    .accounts_cnt h4{
+        color: var(--Text-Color, #11161E);
+
+/* Heading - H4 */
+font-family: "Josefin Sans";
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 34px; /* 141.667% */
+    }
+    .accounts_cnt ul li a{
+        color: var(--Paragraph-Color, #444);
+
+/* Paragraph/body text */
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+    }
+    .accounts_cnt ul li:hover a{
+        color: #FF6F61;
+    }
+    .contacts_cnt{
+        text-align: center;
+    }
+    .contacts_cnt h4{
+        color: var(--Text-Color, #11161E);
+font-family: "Josefin Sans";
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 34px; /* 141.667% */
+    }
+
+    address{
+        color: var(--Paragraph-Color, #444);
+
+/* Paragraph/body text */
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+    }
+    .locationss{
+        color: #FF6F61;
+      
+        width: 100vh;
+    }
+    .addressed{
+        color: var(--Paragraph-Color, #444);
+
+/* Paragraph/body text */
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+
+    }
+    .phoness{
+        color: #FF6F61;
+    }
+    .phones a{
+        color: var(--Paragraph-Color, #444);
+
+/* Paragraph/body text */
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+    }
+    .emailsss{
+        color: #FF6F61;
+    }
+    .emailss a{
+        color: var(--Paragraph-Color, #444);
+
+/* Paragraph/body text */
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+
+    }
+    .footers_cnt1 .para{
+        color: var(--Paragraph-Color, #444);
+
+/* Paragraph/body text */
+font-family: Roboto;
+font-size: 2px;
+font-style: normal;
+font-weight: 400;
+
+    }
+    .aytor{
+        color: #FF6F61;
+    }
+    .angfuzsoft{
+        color: #FF6F61;
+    }
+    .payments{
+        padding: 10px 0;
+        
+    }
+    .facebook.iss{
+        color: black;
+        padding: 0 10px;
+    }
+    .instagrram.iss{
+        color: black;
+        padding: 0 10px;
+    }
+    .instagrram.iss:hover{
+        color: #FF6F61;
+    }
+
+    .facebook.iss:hover{
+        color: #FF6F61;
+    }
+    .twitter.iss{
+        color: black;
+        padding: 0 10px;
+    }
+    .twitter.iss:hover{
+        color: #FF6F61;
+    }
+    .pinterest.iss{
+        color: black;
+        padding: 0 10px;
+    }
+    .pinterest.iss:hover{
+        color: #FF6F61;
+
+    }
+    .links.is{
+        display: flex;
+        justify-content: center;
+    
+    } 
+
+
+
+
+
+
+
+
+
+
+}
